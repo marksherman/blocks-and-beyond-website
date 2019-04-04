@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Blocks and Beyond 2017 Workshop: Home</title>
+    <link href="resources/blocks-and-beyond.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/main.css" type="text/css">
+    <link rel="stylesheet" href="resources/bb.css" type="text/css">
+    <script src="resources/jquery-1.11.1.min.js"></script>
+    <script src="resources/acceptedPapers.js"></script> 
+    <script src="resources/papers.js"></script> 
+  </head>
+  <body>
+
+<!--#include virtual="header.part" -->
+
+<main>
+
+<div id="container">
+
+<div id="main-content">
+
+  <div id="template" style="display:none">
+    <div class="paperEntry">
+      <div class="paperTitle"><a>This is a paper title</a></div>
+      <div class="authorList"></div> 
+      <button class="moreLessButton">More Info</button>
+      <!-- <div class="moreLessInfo">
+        <span class="moreInfo moreLessInfoTitle">More Info</span>
+        <span class="moreInfo moreLessInfoTitle">Less Info</span> 
+      </div>
+      --> 
+      <div class="paperInfoGroup">
+        <div class="paperInfo"><span class="infoTitle">Abstract:</span> <span class="abstract"></span></div>
+        <div class="paperInfo"><span class="infoTitle">Keywords:</span> <span class="keywords"></span></div>
+        <div class="paperInfo"><span class="infoTitle">Keyphrases:</span> <span class="keyphrases"></span></div>
+      </div> <!-- end paperInfoGroup -->
+    </div> <!-- end paperEntry -->
+    <div class="authorEntry">
+      <span class="authorName">Author name #1</span> 
+      &middot 
+      <span class="orgName">Org #1</span> 
+    </div> <!-- end authorEntry -->
+  </div> <!-- end template -->
+
+  <h2 class="paperHeader">Full Papers</h2>
+
+  <div id="paperList"></div> 
+
+  <h2 class"paperHeader">Position Statements</h2>
+
+  <div id="positionList"></div> 
+
+</div> <!-- end main-content -->
+</div> <!-- end container -->
+
+<script>addPapersByType()</script>
+
+</main>
+
+<!--#include virtual="footer.part" -->
+
+  </body>
+</html>
+
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Blocks and Beyond Workshop: Schedule</title>
+    <link href="blocks-and-beyond.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!--#include virtual="header.part" -->
+
+<main>
+
+<h1>Tentative Workshop Schedule</h1>
+
+<p>This will be a full-day workshop on <strong>Thursday, October 22</strong>
+at the <a href="http://www.gatechhotel.com/">Georgia Tech Hotel and Conference Center</a>. 
+The exact schedule will depend on the number and background of participants and types 
+of submission (position statements vs. papers). Below is a tentative schedule that gives 
+a sense of what we have in mind.  We may change it to better suit the participants. 
+
+<p><strong>Note:</strong> Because it is rare for so many members of this community to gather in one place,
+some participants are planning to stay at least part of 
+<strong>Friday, October 23</strong> to continue conversations started the previous day. 
+If you are planning to stay this day, please contact <a href="mailto:fturbak@wellesley.edu">Franklyn Turbak<a>.
+
+<p class="scheduleItem">
+<span class="scheduleTime">Thursday, October 22</span>
+
+<p class="scheduleItem">
+<span class="scheduleTime">Before the workshop:</span> to encourage participants to review all the papers, we will ask attendees to read accepted material and use an online form to rank the ones (top three to five) they would like to discuss. Requiring reading all the papers in advance enhances the workshop experience. 
+
+<p class="scheduleItem">
+<span class="scheduleTime">8:30-8:45am:</span> 
+Welcome from the organizing committee.
+
+<p class="scheduleItem">
+<span class="scheduleTime">8:45-9:15am:</span>
+Participant introductions: name, what you work on, what you hope to get out of
+workshop. (1 minute each)
+
+<p class="scheduleItem">
+<span class="scheduleTime">9:15-10:15am:</span>
+One organizer will moderate a panel consisting of the authors of the
+four top-ranked position statements. Each panelist will speak for 5
+minutes, with the goal of introducing provocative topics that will
+encourage discussion from the audience for the rest of the session.
+
+<p class="scheduleItem">
+<span class="scheduleTime">10:15-10:45am</span>
+Morning break & networking. Take group photo. 
+
+<p class="scheduleItem">
+<span class="scheduleTime">10:45-noon:</span>
+Lightning talks & demos 1.  A sequence of short talks (6-8 minutes
+each), followed by discussion.  Provide slide & time limit, and be
+strict about timing - no questions during or immediately after each
+presentation. moderator leads discussion after all have gone. (Provide
+pads of paper & pens to encourage saving questions for end).
+ 
+<p class="scheduleItem">
+<span class="scheduleTime">noon-1:00pm:</span>
+Buffet lunch at the <a href="http://www.gatechhotel.com/">Conference Center</a>
+
+<p class="scheduleItem">
+<span class="scheduleTime">1:00-2:15pm:</span>
+Lightning talks & demos 2. 
+
+<p class="scheduleItem">
+<span class="scheduleTime">2:15-2:45pm</span>
+Whole group brainstorming. Pass out post-it notes to get some
+divergent thinking going to brainstorm on questions or breakout
+session topics, which then can serve to start the working group
+discussion. Unconference style working group generation &
+self-assignment.
+
+<p class="scheduleItem">
+<span class="scheduleTime">2:45-3:15pm</span>
+Afternoon break & networking
+
+<p class="scheduleItem">
+<span class="scheduleTime">3:15-4:45pm</span>
+Small working group (about 4 people each) breakout sessions on focused topics determined during brainstorming session.  Each working group will choose a facilitator to guide discussion and a scribe to record discussion. 
+
+<p class="scheduleItem">
+<span class="scheduleTime">4:45-5:15pm</span>
+Working groups report back to whole group, followed by discussion.  
+
+<p class="scheduleItem">
+<span class="scheduleTime">5:15-5:30m</span>
+Reflection, synthesis, next steps: key research questions and possible collaborations. Seek volunteers to help organizers write summary of discussions. 
+
+<p class="scheduleItem">
+<span class="scheduleTime">5:30-6:00pm</span>
+Wind down and unstructured networking
+ 
+<p class="scheduleItem">
+<span class="scheduleTime">6:00-7:00pm</span>
+Downtime
+
+<p class="scheduleItem">
+<span class="scheduleTime">7:00-9:00pm</span>
+Interested parties go out to dinner 
+
+<p class="scheduleItem">
+<span class="scheduleTime">Friday, October 23</span>
+
+<p class="scheduleItem">
+Conversations will continue on this day among some participants. 
+Details will be posted as they emerge. 
+
+</main>
+
+<!--#include virtual="footer.part" -->
+
+</body>
+</html>

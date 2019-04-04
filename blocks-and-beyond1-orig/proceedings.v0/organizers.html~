@@ -1,0 +1,161 @@
+
+
+<html>
+<head>
+<title>VL/HCC 2013</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="../resources/main.css" type="text/css">
+
+<style>
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+</style>
+
+<body>
+
+<div id="container">
+  <img src="../resources/banner.jpg" alt="IEEE Symposium on Visual Languages and Human-Centric Computing: VL/HCC 2013 - September 15-19, San Jose, California" width="800" height="250">
+
+  <div id="main-nav">
+		
+<div id="primary-nav">
+    <ul>
+      <li><a href="../index.html">Home</a>
+      <li><a href="../program/proceedings/foreword.pdf">Foreword</a>
+      <li><a href="../program/index.html">Program</a>
+      <li><a href="../sponsors/index.html">Sponsors</a>
+      <li><a href="../organizers/index.html" class="selected">Organizers</a>
+    </ul>
+  </div>
+
+		
+		
+  </div>
+
+	<div id="main-content">
+	  
+<h2>Organizing Committee</h2>
+
+<dl>
+
+<dt>General Conference Chair</dt>
+<dd>Allen Cypher &middot; <i>IBM Research — Almaden, USA</i></dd>
+
+<dt>Technical Program Committee Chairs</dt>
+<dd>Margaret Burnett &middot; <i>Oregon State University, USA</i></dd>
+<dd>Stefan Sauer &middot; <i>Universität Paderborn, Germany</i></dd>
+
+<dt>Posters and Demos Chair</dt>
+<dd>Christopher Scaffidi &middot; <i>Oregon State University, USA</i></dd>
+
+<dt>Speakers, Panels, Workshops &amp; Tutorials Chair</dt>
+<dd>Mary Beth Rosson &middot; <i>Pennsylvania State University, USA</i></dd>
+
+<dt>Graduate Consortium Chair</dt>
+<dd>Scott Fleming &middot; <i>University of Memphis, USA</i></dd>
+
+<dt>Publicity Chair</dt>
+<dd>James Lin &middot; <i>Google, USA</i></dd>
+
+<dt>Proceedings Chair</dt>
+<dd>Caitlin Kelleher &middot; <i>Washington University in St. Louis, USA</i></dd>
+
+<dt>Treasurer</dt>
+<dd>Jeffrey Nichols</a> &middot; <i>IBM Research — Almaden, USA</i></dd>
+
+</dl>
+
+
+<h2>Program Committee</h2>
+
+<ul>
+<li>Robin Abraham &middot; <i>Microsoft, USA</i>
+<li>Simone D.J. Barbosa &middot; <i>PUC-Rio, Brazil</i>
+<li>Robert Biddle &middot; <i>Carleton University, Canada</i>
+<li>Paolo Bottoni &middot; <i>Sapienza – Università di Roma, Italy</i>
+<li>Maria Francesca Costabile &middot; <i>University of Bari, Italy</i>
+<li>Gennaro Costagliola &middot; <i>Università di Salerno, Italy</i>
+<li>Phil Cox &middot; <i>Dalhousie University, Canada</i>
+<li>Juan de Lara &middot; <i>Universidad Autónoma de Madrid, Spain</i>
+<li>Boris de Ruyter &middot; <i>Philips Research, The Netherlands</i>
+<li>Robert DeLine &middot; <i>Microsoft Research, USA</i>
+<li>Gregor Engels &middot; <i>Universität Paderborn, Germany</i>
+<li>Claudia Ermel &middot; <i>Technische Universität Berlin, Germany</i>
+<li>Martin Erwig &middot; <i>Oregon State University, USA</i>
+<li>Andrew Fish &middot; <i>University of Brighton, UK</i>
+<li>Scott Fleming &middot; <i>University of Memphis, USA</i>
+<li>Judith Good &middot; <i>University of Sussex, UK</i>
+<li>Jeff Gray &middot; <i>University of Alabama, USA</i>
+<li>John Grundy &middot; <i>Swinburne University of Technology, Australia</i>
+<li>John Hosking &middot; <i>University of Auckland, New Zealand</i>
+<li>John Howse &middot; <i>University of Brighton, UK</i>
+<li>Christopher Hundhausen &middot; <i>Washington State University, USA</i>
+<li>Caitlin Kelleher &middot; <i>Washington University in St. Louis, USA</i>
+<li>Andrew J. Ko &middot; <i>University of Washington, USA</i>
+<li>Eileen Kraemer &middot; <i>University of Georgia, USA</i>
+<li>Chun-Cheng Lin &middot; <i>National Chiao Tung University, Taiwan</i>
+<li>James Lin &middot; <i>Google, USA</i>
+<li>Gerrit Meixner &middot; <i>Heilbronn University, Germany</i>
+<li>Mark Minas &middot; <i>Universität der Bundeswehr München, Germany</i>
+<li>Emerson Murphy-Hill &middot; <i>North Carolina State University, USA</i>
+<li>Brad Myers &middot; <i>Carnegie Mellon University, USA</i>
+<li>Masao Ohira &middot; <i>Wakayama University, Japan</i>
+<li>Ian Oliver &middot; <i>Nokia, Finland</i>
+<li>Philippe Palanque &middot; <i>Université Toulouse III — Paul Sabatier, France</i>
+<li>Emmanuel Pietriga &middot; <i>INRIA, France</i>
+<li>Alexander Repenning &middot; <i>University of Colorado, USA</i>
+<li>Peter Rodgers &middot; <i>University of Kent, UK</i>
+<li>Mary Beth Rosson &middot; <i>Pennsylvania State University, USA</i>
+<li>Christopher Scaffidi &middot; <i>Oregon State University, USA</i>
+<li>Jonathan Sillito &middot; <i>University of Calgary, Canada</i>
+<li>Gem Stapleton &middot; <i>University of Brighton, UK</i>
+<li>Simone Stumpf &middot; <i>City University London, UK</i>
+<li>Steven Tanimoto &middot; <i>University of Washington, USA</i>
+<li>Daniel Varro &middot; <i>Budapest University of Technology and Economics, Hungary</i>
+<li>Susan Wiedenbeck &middot; <i>Drexel University, USA</i>
+
+<h2>Additional Reviewers</h2>
+
+<ul>
+<li>Wyatt Allen &middot; <i>Oregon State University, USA</i>
+<li>Andrew Blake &middot; <i>University of Brighton, UK</i>
+<li>Christopher Bogart &middot; <i>Oregon State University, USA</i>
+<li>Dennis Bokermann &middot; <i>Universität Paderborn, Germany</i>
+<li>Benjamin Braatz &middot; <i>Universit&eacute;  du Luxembourg, Luxembourg</i>
+<li>Jim Burton &middot; <i>University of Brighton, UK</i>
+<li>Jill Cao &middot; <i>Oregon State University, USA</i>
+<li>Peter Chapman &middot; <i>University of Brighton, UK</i>
+<li>Sheng Chen &middot; <i>University of Southampton, UK</i>
+<li>Jonathan Corley &middot; <i>University of Alabama, USA</i>
+<li>Aidan Delaney &middot; <i>University of Brighton, UK</i>
+<li>Mattia De Rosa &middot; <i>University of Salerno, Italy</i>
+<li>Vittorio Fuccella &middot; <i>University of Salerno, Italy</i>
+<li>Susann Gottmann &middot; <i>Universit&eacute;  du Luxembourg, Luxembourg</i>
+<li>Ferosh Jacob &middot; <i>University of Alabama, USA</i>
+<li>Todd Kulesza &middot; <i>Oregon State University, USA</i>
+<li>Irwin Kwan &middot; <i>Oregon State University, USA</i>
+<li>Rosa Lanzilotti &middot; <i>Universit&agrave; degli Studi di Bari, Italy</i>
+<li>Duc Le &middot; <i>Oregon State University, USA</i>
+<li>Markus Luckey &middot; <i>Universität Paderborn, Germany</i>
+<li>Sonja Maier &middot; <i>Universit&auml;t der Bundeswehr M&uuml;nchen, Germany</i>
+<li>Rodrigo Maues &middot; <i>Pontifical Catholic University of Rio de Janeiro, Brazil</i>
+<li>David Piorkowski &middot; <i>Oregon State University, USA</i>
+<li>Istv&aacute;n R&aacute;th &middot; <i>Budapest University of Technology and Economics</i>
+<li>John Taylor &middot; <i>University of Brighton, UK</i>
+<li>Zolt&aacute;n Ujhelyi &middot; <i>Budapest University of Technology and Economics, Hungary</i>
+<li>Sherry Yang &middot; <i>Oregon Institute of Technology, USA</i>
+
+	</div>
+
+	<div id="footer">
+		
+			&copy; 2013 IEEE. All rights reserved. Photo of San Jose by XAtsukex [<a href="http://creativecommons.org/licenses/by/3.0">CC-BY-3.0</a>] via <a href="http://en.wikipedia.org/wiki/File:Panoramic_Downtown_San_Jose.jpg" target="_blank">Wikimedia Commons</a>
+		
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+
+<html>
+<head>
+<title>VL/HCC 2013</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="resources/main.css" type="text/css">
+
+<body>
+
+<div id="container">
+  <img src="resources/banner.jpg" alt="IEEE Symposium on Visual Languages and Human-Centric Computing: VL/HCC 2013 - September 15-19, San Jose, California" width="800" height="250">
+
+  <div id="main-nav">
+		
+<div id="primary-nav">
+    <ul>
+      <li><a href="index.html" class="selected">Home</a>
+      <li><a href="program/proceedings/foreword.pdf">Foreword</a>
+      <li><a href="program/index.html">Program</a>
+      <li><a href="sponsors/index.html">Sponsors</a>
+      <li><a href="organizers/index.html">Organizers</a>
+    </ul>
+  </div>
+
+		
+		
+  </div>
+
+	<div id="main-content">
+	  
+<h2>Welcome to VL/HCC 2013</h2>
+
+<h4>IEEE Symposium on Visual Languages and Human-Centric Computing<br>
+September 15&ndash;19, 2013 &middot; San Jose, California, USA</h4>
+
+<p>From the beginning of the computer age, people have sought easier ways to learn, express, and understand computational ideas. Whether this meant moving from punch cards to textual languages, or command lines to graphical user interfaces, the quest to make code easier to express, manipulate, and understand by a broader group of people is an ongoing challenge.</p>
+
+<p>The <b>IEEE Symposium on Visual Languages and Human-Centric Computing</b> (VL/HCC) is the premier international forum for research on this goal. Established in 1984, the mission of the conference is to support the design, theory, application and evaluation of computing technologies and languages for programming, modeling and communicating, which are easier to learn, use, and understand by people.</p>
+
+<ul id="sponsors">
+<li><a href="http://www.ieee.org/"><img src="resources/ieee_small.png" alt="IEEE" width="103" height="30" border=0></a>
+<li><a href="http://www.computer.org/"><img src="resources/ieee_cs_stacked_small.png" alt="IEEE Computer Society" width="124" height="45" border=0></a>
+</ul>
+
+	</div>
+
+	<div id="footer">
+		
+<p>Copyright and Reprint Permission: Abstracting is permitted with credit to the source. Libraries are
+permitted to photocopy beyond the limit of U.S. copyright law for private use of patrons those articles in
+this volume that carry a code at the bottom of the first page, provided the per-copy fee indicated in the
+code is paid through:</p>
+
+<p>Copyright Clearance Center<br>
+222 Rosewood Drive<br>
+Danvers, MA 01923</p>
+
+<p>For other copying, reprint or republication permission, write to IEEE Copyrights Manager:</p>
+
+<p>IEEE Operations Center<br>
+445 Hoes Lane<br>
+Piscataway, NJ 08854</p>
+
+<p>If you experience problems with the e-proceedings, please check the <a href="ReadMe.txt">ReadMe.txt</a> file for common 
+troubleshooting tips. If that fails, you can contact the publications chair for further help:</p>
+
+<p>Caitlin Kelleher<br>
+<a href="mailto:ckelleher@cse.wustl.edu">ckelleher@cse.wustl.edu</a><br>
++1 314 935 6119<br>
++1 314 935 7302 (fax)</p>
+
+
+			&copy; 2013 IEEE. All rights reserved. Photo of San Jose by XAtsukex [<a href="http://creativecommons.org/licenses/by/3.0">CC-BY-3.0</a>] via <a href="http://en.wikipedia.org/wiki/File:Panoramic_Downtown_San_Jose.jpg" target="_blank">Wikimedia Commons</a>
+		
+
+	</div>
+</div>
+
+</body>
+</html>

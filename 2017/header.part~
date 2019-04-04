@@ -1,0 +1,16 @@
+<header>
+  <div id="mainTitle">Blocks and Beyond 2</div>
+  <div id="subTitle">2nd Workshop on Lessons and Directions for First Programming Environments</div>
+  <div id="subSubTitle">A <a href="https://sites.google.com/site/vlhcc2017/home">VL/HCC 2017</a> workshop 
+   in Raleigh, NC, USA, Oct. 10, 2017</div>
+  <div id="crossRef">
+   The sequel to the <a href="http://cs.wellesley.edu/~blocks-and-beyond/1">1st Blocks and Beyond Workshop (Oct, 2015)</a></div>
+</header>
+
+    <nav>
+      <div class="navitem"><a href="home.html">Home</a></div>
+      <div class="navitem"><a href="organizers.html">Organizers</a></div>
+      <div class="navitem"><a href="pc.html">PC</a></div>
+      <div class="navitem"><a href="schedule.html">Schedule</a></div>
+    </nav>
+

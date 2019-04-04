@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Blocks and Beyond Workshop</title>
+    <link href="resources/blocks-and-beyond.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!--#include virtual="header.part" -->
+
+<main>
+
+<h1>Organizers</h1>
+
+<p class="blurb"> 
+<span class="organizer">Franklyn Turbak</span> 
+is an associate professor of Computer Science at Wellesley College.
+His interests include the design, analysis, and implementation of
+expressive programming languages, graphical representations of
+programs, and the visualization of computational processes. 
+As a member of the MIT App Inventor development team and head of the
+Wellesley TinkerBlocks research project his current focus is to improve the
+expressiveness and pedagogy of blocks-based programming languages. He
+is co-author of the textbook Design Concepts in Programming Languages.
+
+<p class="blurb"> 
+<span class="organizer">Jeff Gray</span> 
+is a Professor in the Department of Computer Science at the University
+of Alabama. His main research interests are in software engineering
+and computer science education.  Jeff is on the Education Advisory
+board of Code.org and also a Code.org K5 affiliate. He is a National
+Science Foundation CAREER recipient and an ACM Distinguished
+Member. Jeff has served on over 75 conference/workshop organizing
+committees and over 200 program committees. Most recently, he has been
+involved with the new CS Principles course in the following ways:
+national pilot instructor since 2011, NSF PI on a grant that is
+training 50 Alabama high school teachers, and a MOOC instructor for
+Google CS4HS. His current projects involving blocks languages include
+an NSF project that is investigating how children with disabilities
+can program in Scratch using “Programming by Voice,” as well as
+advising several new Blockly language environments (Spherly for Sphero
+robots and Pixly for pixel manipulation). More general information
+about his work is at: http://gray.cs.ua.edu.
+
+<p class="blurb"> 
+<span class="organizer">Caitlin Kelleher</span> 
+is the Urbauer Career Development Associate Professor of Computer
+Science at Washington University in St. Louis. Her work focuses on
+democratizing computer programming through innovative programming
+tools. Looking Glass is a programming environment designed for ages 10
+and up that serves as a platform for exploring how kids can learn
+programming even when they lack access to a teacher and classroom
+context. It includes tools for interactively exploring the execution
+history, capturing and sharing reusable snippets of code, and
+generating puzzles from shared code. Caitlin completed her doctorate
+at Carnegie Mellon University working with Professor Randy Pausch. She
+is the recipient of an NSF CAREER award, a Sloan Fellowship, and
+several best paper awards.
+
+<p class="blurb"> 
+<span class="organizer">Mark Sherman</span>  
+recently joined the MIT App Inventor team after completing his University
+of Massachusetts Lowell doctoratal dissertation "Detecting 
+Student Progress during Programming Activities by Analyzing Edit
+Operations on their Blocks-based Programs". 
+As a member of the UMass Lowell Engaging Computing Group, he worked
+on several projects involving App Inventor, and has been an MIT 
+Master Trainer for many years. 
+</main>
+
+<!--#include virtual="footer.part" -->
+</body>
+</html>

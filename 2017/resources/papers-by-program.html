@@ -1,0 +1,233 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Blocks and Beyond 2017 Workshop: Program</title>
+    <link href="resources/blocks-and-beyond.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/bb.css" type="text/css">
+    <script src="resources/jquery-1.11.1.min.js"></script>
+    <script src="resources/acceptedPapers.js"></script> 
+    <script src="resources/papers.js"></script> 
+  </head>
+  <body>
+
+<!--#include virtual="header.part" -->
+
+<main>
+
+  <div id="template" style="display:none">
+    <div class="paperEntry">
+      <!-- <div class="paperTitle"><a>This is a paper title</a><button class="moreLessButton">More Info</button></div> --> 
+      <div class="paperTitle"><span class="paperTitleSpan">This is a paper title</span> &middot <span class="paperType"></span> <button class="moreLessButton">More Info</button></div>
+      <div class="posterDemoNote"></div>
+      <div class="authorList"></div> 
+      
+      <!-- <div class="moreLessInfo">
+        <span class="moreInfo moreLessInfoTitle">More Info</span>
+        <span class="moreInfo moreLessInfoTitle">Less Info</span> 
+      </div>
+      --> 
+      <div class="paperInfoGroup" style="display:none"><!-- Info initially hidden --> 
+        <div class="paperInfo"><span class="infoTitle">Abstract:</span> <span class="abstract"></span></div>
+        <div class="paperInfo keywordsInfo"><span class="infoTitle">Keywords:</span> <span class="keywords"></span></div>
+        <div class="pdfLink"><a target="_blank"><span class="pdfLinkTitle">Link to PDF</span></a></div>
+        <!-- <div class="paperInfo"><span class="infoTitle">Keyphrases:</span> <span class="keyphrases"></span></div> --> 
+      </div> <!-- end paperInfoGroup -->
+    </div> <!-- end paperEntry -->
+    <div class="authorEntry">
+      <span class="authorName">Author name #1</span> 
+      &middot 
+      <span class="orgName">Org #1</span> 
+    </div> <!-- end authorEntry -->
+  </div> <!-- end template -->
+
+<h1>2017 Blocks & Beyond Workshop Program</h1>
+
+<p>This full-day workshop will be on <strong>Tuesday, October 10, 2017</strong> at the 
+<a href="http://www.marbleskidsmuseum.org/">Marbles Kids Museum</a> in Raleigh, NC. 
+
+<p><strong>Note:</strong> Because it is rare for so many members of the blocks programming community to be in one place, we have also planned some informal gatherings and meetups at meal times. 
+
+<p>If you have any questions about the program, please contact 
+<a href="mailto:fturbak@wellesley.edu">Franklyn Turbak<a>.
+
+<div class="workshopDay">Monday, October 09</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">14:30pm-17:30pm</div>
+  <div class="sessionTitle">Informal Discussions (Marbles Museum, Zanzibar Room)</div>
+  <p> Those who arrive in town early are encouraged to meet up and discuss blocks-related
+      topics. This is an informal session; come and go as you please. 
+      <a href="https://docs.google.com/document/d/1Yl4bvjIHU6ibxt2Xwx_4bseAO__eMb7hiwRSuM3sI_Q/edit#">Use this Doc to coordinate.</a>
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">18:00-whenever</div>
+  <div class="sessionTitle">Informal Dinner Groups and Post-Dinner Discussions</div>
+  <p> Many workshop attendees are interested in joining dinner groups.
+      Use the <a href="https://docs.google.com/document/d/1Yl4bvjIHU6ibxt2Xwx_4bseAO__eMb7hiwRSuM3sI_Q/edit#">Blocks and Beyond Coordination Doc</a> to form dinner/discussion groups and tell other folks where you are.
+</div>
+
+<div class="workshopDay">Tuesday, October 10</div>
+
+<p>The main workshop activites will take place in the <strong>Zanzibar Room</strong> 
+at the Marbles Museum. 
+
+<p>The workshop format and schedule is designed to encourage discussion amongst the attendees:
+
+<ul>
+
+<li> Four talk sessions include both full paper presentations (15 minutes each) and position statement lightning talks (6 minutes each), followed by a discussion with the audience. 
+
+<li> Two hour-long blocks playground sessions involve presentations of demos and posters 
+
+<li> The workshop culminates in an invited panel on the future of blocks programming. Each of five panelists will begin with a 6-minute presentation, and this will be followed by a discussion with the audience. 
+
+</ul>
+
+<p><strong>Note:</strong> The PDF links require an HTTP username/password. This has been emailed to all workshop registrations, authors, and PC members. 
+
+<div class="sessionGroup">
+  <div class="sessionTime">08:00-08:20</div>
+  <div class="sessionTitle">Registration (continues throughout day)</div>
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">08:20-08:30</div>
+  <div class="sessionTitle">Welcome from the Organizers</div>
+</div>
+
+
+<div class="sessionGroup">
+  <div class="sessionTime">08:30-09:45</div>
+  <div class="sessionTitle">Talk Session 1: Visual Language Design
+    <span class="sessionChair">(Session Chair: Mark Sherman)</span>
+  </div>
+  <div id="visualLanguageSession" class="sessionTalks"></div> 
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">09:45-10:45</div>
+  <div class="sessionTitle">Blocks Playground 1: Demos and Posters</div>
+  <div id="playground1Session" class="sessionTalks"></div> 
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">10:45-11:45</div>
+  <div class="sessionTitle">Talk Session 2: Blocks in New Domains
+    <span class="sessionChair">(Session Chair: Ralph Morelli)</span>
+  </div>
+  <div id="newDomainsSession" class="sessionTalks"></div> 
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">11:45-12:00</div>
+  <div class="sessionTitle">Break</div>
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">12:00-12:45</div>
+  <div class="sessionTitle">Talk Session 3: New Features in Blocks Environments
+    <span class="sessionChair">(Session Chair: Caitlin Kelleher)</span>
+  </div>
+  <div id="newFeaturesSession" class="sessionTalks"></div> 
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">12:45-13:45</div>
+  <div class="sessionTitle">Box lunches at Museum</div>
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">13:45-15:00pm</div>
+  <div class="sessionTitle">Talk Session 4: Educational Aspects of Blocks
+    <span class="sessionChair">(Session Chair: Amon Millner)</span>
+  </div>
+  <div id="educationSession" class="sessionTalks"></div> 
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">15:00-16:00</div>
+  <div class="sessionTitle">Blocks Playground 2: Demos and Posters</div>
+  <div id="playground2Session" class="sessionTalks"></div> 
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">16:00-16:15pm</div>
+  <div class="sessionTitle">Group Photo</div>
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">16:15-17:30pm</div>
+  <div class="sessionTitle">Invited Panel: The Future of Blocks Programming
+    <span class="sessionChair">(Moderator: Jeff Gray)</span>
+  </div>
+  <div class="authorList">
+    <div class="authorEntry">
+      <span class="authorName">Caitlin Kelleher</span> 
+      &middot 
+      <span class="orgName">Washington University in St. Louis, USA</span> 
+      &middot 
+      <span class="enviornmenName">Looking Glass</span> 
+    </div> <!-- end authorEntry -->
+    <div class="authorEntry">
+      <span class="authorName">John Maloney</span> 
+      &middot 
+      <span class="orgName">HARC/YCR, USA</span> 
+      &middot 
+      <span class="enviornmenName">GP</span> 
+    </div> <!-- end authorEntry -->
+    <div class="authorEntry">
+      <span class="authorName">Paul Medlock-Walton</span> 
+      &middot 
+      <span class="orgName">MIT, USA</span> 
+      &middot 
+      <span class="enviornmenName">GameBlox</span> 
+    </div> <!-- end authorEntry -->
+    <div class="authorEntry">
+      <span class="authorName">Evan Patton</span> 
+      &middot 
+      <span class="orgName">MIT, USA</span> 
+      &middot 
+      <span class="enviornmenName">App Inventor</span> 
+    </div> <!-- end authorEntry -->
+    <div class="authorEntry">
+      <span class="authorName">Daniel Wendel</span> 
+      &middot 
+      <span class="orgName">MIT (Scheller Teacher Education Program), USA</span> 
+      &middot 
+      <span class="enviornmenName">StarLogo Nova</span> 
+    </div> <!-- end authorEntry -->
+
+
+  </div> 
+
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">17:30-17:40pm</div>
+  <div class="sessionTitle">Closing remarks</div>
+</div>
+
+<div class="sessionGroup">
+  <div class="sessionTime">19:00-whenever</div>
+  <div class="sessionTitle">Informal Dinner Groups and Post-Dinner Discussions</div>
+  <p>Continue discussions from the workshop going over dinner and after! 
+      Use the <a href="https://docs.google.com/document/d/1Yl4bvjIHU6ibxt2Xwx_4bseAO__eMb7hiwRSuM3sI_Q/edit#">Blocks and Beyond Coordination Doc</a> to form dinner/discussion groups and tell other folks where you are.
+</div>
+
+<div class="workshopDay">Wednesday, October 11</div>
+
+<p>Conversations will continue on this day among some participants. 
+<a href="https://docs.google.com/document/d/1Yl4bvjIHU6ibxt2Xwx_4bseAO__eMb7hiwRSuM3sI_Q/edit#">Use this Doc to coordinate.</a>
+
+<p>Note that the main VL/HCC conference starts this day with a 9am keynote by Ben Shapiro
+
+</main>
+
+<!--#include virtual="footer.part" -->
+
+<script>addPapersBySession()</script> 
+
+</body>
+</html>
+

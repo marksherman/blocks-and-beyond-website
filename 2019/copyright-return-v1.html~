@@ -1,0 +1,21 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+    <title>Blocks and Beyond 2017 Workshop: Electronic Copyright Submission</title>
+    <link href="resources/blocks-and-beyond.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!--#include virtual="header.part" -->
+
+<main>
+
+<p>The IEEE Copyright Submission system has returned you to the Blocks and Beyond 2017 website.</p>
+
+</main>
+
+<!--#include virtual="footer.part" -->
+
+  </body>
+</html>
+

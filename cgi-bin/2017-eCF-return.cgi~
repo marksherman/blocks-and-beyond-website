@@ -1,0 +1,41 @@
+#!/usr/bin/env python2.7
+# Python script for displaying information from HTTP request
+
+import cgi, os
+import cgitb; cgitb.enable()
+import types
+import datetime
+
+# Top-level dispatch for web page request from this site
+def respondToPageRequest():
+
+  # print "Welcome to the cgi-bin debugging page.<br>"
+  # print "This page displays key-value pairs from the HTTP request, plus all environment variables.<br>"
+
+  # Extract CGI form fields
+  inputs = cgi.FieldStorage()
+
+  sortedKeys = sorted(inputs.keys())
+
+  if sortedKeys == ['ArtId', 'CopyType']:
+  '''<html>
+     <p>Your IEEE electronic copyright form for submission {} has been
+        sucessfully processed with copyright type {}</p>
+     </html>'''.format(inputs.getvalue('ArtId'), inputs.getvalue('CopyType'))
+  else: 
+  '''<html>
+     <p>The response from the IEEE copyright server contains unexpected keys: {}</p>
+     </html>'''.format(sortedKeys)
+
+# Guido's suggested method for CGI debugging 
+def main():
+  print "Content-Type: text/html\n"
+  try:
+    # Invoke the page request handler
+    respondToPageRequest()
+  except:
+    print "<hr><h1>A Python Error occurred!</h1>"
+    cgi.print_exception()
+
+# Start the whole shebang
+main()

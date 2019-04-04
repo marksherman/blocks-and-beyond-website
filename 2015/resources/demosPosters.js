@@ -1,0 +1,340 @@
+function compareByPresenterName(presentation1, presentation2) {
+  if (presentation1.last < presentation2.last) {
+    return -1;
+  } else if (presentation1.last > presentation2.last) {
+    return 1; 
+  } else if // Author last name is the same; sort by first
+      (presentation1.first < presentation2.first) {
+    return -1; 
+  } else if (presentation1.first > presentation2.first) {
+    return 1; 
+  }  else { // They're the same!
+    return 0;
+  }
+}
+
+allDemoPosterSessions = ["demoPosterSession1", "demoPosterSession2"];
+
+function addDemosPostersByScheduleSession() {
+    var sessionDict = {demoPosterSession1: [] , demoPosterSession2: []};
+    // Populate sessionDict with 
+    forEach(allDemosPosters, function (presentation) { 
+	    sessionName = "demoPosterSession" + presentation['session'];
+	    sessionDict[sessionName].push(presentation);
+	});
+    forEach(allDemoPosterSessions, function (session) {
+         var sessionPresentations = sessionDict[session];
+	 // Sort multiple papers of an author by title
+	 sessionPresentations.sort(compareByPresenterName);
+	 forEach(sessionPresentations, function (presentation) { 
+	     var presentationEntry = $('#template > .presentationEntry').clone();
+	     presentationEntry.find(".presentationName").html(presentation.first + " " + presentation.last)
+	     presentationEntry.find(".presentationTitle").html(presentation.title);
+	     presentationEntry.find(".presentationType").html(presentation.type);
+	     if (presentation.blurb) {
+		 // The following are named so they can be references by closure below. 
+		 var presentationMoreText = presentationEntry.find(".presentationMoreText")
+                                                             .html(presentation.blurb)
+ 		                                             .css("display", "none");
+                 var presentationMoreLabel = 
+  		   presentationEntry.find(".presentationMoreLabel")
+		     .html("More")
+		     .click(function() { // I love closures!
+			     if (presentationMoreLabel.html() == "More") {
+				 presentationMoreLabel.html("Less");
+				 presentationMoreText.css("display", "block"); 
+			     } else {
+				 presentationMoreLabel.html("More");
+				 presentationMoreText.css("display", "none"); 
+			     }
+			 });
+	     }
+	     presentationEntry.appendTo("#" + session + "List");
+         });
+    });
+}
+
+// JSON describing all demos and posters
+allDemosPosters =
+[
+ {session: 1, 
+  type: "demo",
+	 first: "Austin Cory",
+	 last: "Bart",
+  email: "acbart@vt.edu", 
+  title: "BlockPy: Block-based Python with Data Science, Guided Practice, and Fading Scaffolds",
+  blurb: "In this demo, participants will get to try the latest version of BlockPy, a new web-based programming environment built on Blockly and Skulpt with an emphasis on data science. Introductory learners can access real-world datasets such as weather reports and real-time stock data. As a platform for completing short programming problems, BlockPy can be configured to provide guiding feedback and report grades using LTI protocols. The environment also handles Mutual Language Translation, so that users can freely switch between blocks and text. The environment's powerful pedagogical features open the way for a number of interesting new research directions in both education and program analysis."
+	 },
+
+ {session: 1, 
+  type: "demo", 
+	 first: "Neil",
+	 last:  "Brown", 
+  email: "nccb@kent.ac.uk", 
+  title: "Greenfoot 3: A hybrid blocks/text editor", 
+  blurb: "Greenfoot 3 introduces frame-based editing: a new editing paradigm partway between the block-based programming of Scratch et al, and text-based programming.  In this demo I will show its key features: its support for keyboard entry and manipulation, its improved navigation, and its context-aware assistance."
+	 }, 
+
+  {session: 1, 
+	  type: "demo",
+	  first: "Daniel",
+	  last: "Rough", 
+	  email: "djr53@st-andrews.ac.uk", 
+   title: "Jeeves- Experience Sampling At Your Service!"
+	  },
+
+ {session: 1, 
+  type: "demo", 
+          first: "Neil",
+	 last: "Fraser", 
+  email: "fraser@google.com",
+  title: "Blockly 2015", 
+  blurb: "Google's Blockly has been evolving quickly to serve as an editor for hundreds of block-based programming applications.  This year we introduce support for zooming, shadow blocks, faster rendering, multiple instances, headless code generation, step-by-step execution, PHP, and even Internet Explorer."
+	 },
+
+ {session: 1, 
+  type: "demo", 
+  first: "Alessio",
+	 last: "Malizia", 
+  email: "Alessio.Malizia@brunel.ac.uk",
+  title: "Pervasive displays in the wild: fostering adoption using block-oriented EUD", 
+  blurb: "In this demo, we introduce TAPAS, a system that combines tangible interaction with a puzzle metaphor, allowing users to create workflows on a Pervasive Display for personalising their experiences."},
+
+ {session: 1, 
+  type: "demo", 
+  first: "Stephanie",
+	 last: "Ludi", 
+  email: "salvse@rit.edu", 
+  title: "Towards Making Block-Based Programming Accessible for Blind Users", 
+  blurb: "A sample of the accessibility features designed by RIT for use with Blockly will be presented.  These features target users who are visually impaired or blind, though sighted users may also find these features of value."
+	 }, 
+
+ {session: 1, 
+  type: "demo", 
+  first: "Aaron",
+	 last: "Bauer", 
+  email: "awb@cs.washington.edu", 
+  title: "Dragon Architect", 
+  blurb: "We are presenting Dragon Architect, a 3D building game where players write block-based code to solve puzzles and build 3D structures out of cubes. "
+	 },
+
+ {session: 1, 
+  type: "demo", 
+	 first: "David", 
+         last: "Bau", 
+	 email: "davidbau@mit.edu", 
+	 title: "HTML Blocks and Visual Debugging in Pencil Code",
+	 blurb: "A demo of two novel extensions to Pencil Code: a way of creating HTML visually using scratch-like blocks which can be toggled to text code; and a visual debugger that allows rewinding and visualization of the timeline of a program."
+	 }, 
+  
+ {session: 1, 
+  type: "demo", 
+	 first: "Chris", 
+	 last: "Johnson", 
+	 email: "johnch@uwec.edu", 
+	 title: "Madeup: a Language for Making Things Up", 
+	 blurb: "Madeup is a programming language for making things up---literally. Programmers write sequences of commands to move and turn through space, tracing out printable 3D shapes with algorithms and mathematical operations. The language is designed to teach computation from a tangible, first-person perspective and help students integrate computation back into the physical world. We describe the language in general and reflect specifically on our recent implementation of its block interface."
+ },
+
+
+  {session: 1, 
+	  type: "demo", 
+	  first: "Jonathan",
+	  last: "Protzenko", 
+	  email: "jonathan.protzenko@gmail.com", 
+	  title: "A demo of the BBC micro:bit "
+	  },
+
+  {session: 1, 
+   type: "poster and demo", 
+   first: "Michael",
+	  last: "Homer",
+	  email: "mwh@ecs.vuw.ac.nz", 
+   title: "Integrating Tiled and Textual Editing of Code",
+	  blurb: "Tiled Grace is a block-based editor for a conventional textual programming language that allows the code to be edited as both blocks and text, and to switch between both modes at any time. Animated in-place transitions make the correspondence between the two views clear. In user experimentation, we found that users responded very favourably to the animated transitions and appreciated immediate overlaid error messages. We also found that a proportion of participants had serious difficulty with the drag-and-drop paradigm and that users who were less experienced with technology in general had greater enjoyment using the system. Tiled Grace is available in a web browser at http://ecs.vuw.ac.nz/~mwh/minigrace/tiled/",
+	  },
+
+  {session: 1, 
+   type: "poster and demo", 
+   first: "Daniel",
+	  last: "Wendel",
+	  email: "djwendel@mit.edu", 
+   title: "Concurrency and Decentralized Thinking in StarLogo Nova",
+	  blurb: "StarLogo Nova is the latest version of StarLogo, and retains the original focus on decentralized thinking and complex systems modeling. However, StarLogo Nova's language and engine design now support concurrency and decentralized programming in a much more intuitive way, giving beginning programmers immediate access to this type of thinking. I'll be demonstrating these designs in the context of a few example projects, and answering any questions people may have about StarLogo Nova.",
+	  },
+
+  {session: 1, 
+   type: "poster",
+	  first: "Leonel",
+	  last: "Morales Díaz", 
+	  email: "litomd@ufm.edu", 
+   title: "From Intuition to Measure: Styles of Use in Alice",
+	  blurb: 'In this poster we will present four profiles of what we call "styles of use" that we detected over time in participants in computer animation workshops with Alice, a free environment for learning to program created by Carnegie Mellon University which uses a block programming model to produce animations in a 3D space. After conducting several of such workshops we started noticing that participants engaged with the platform in one of four different styles: instruction follower, scene designer, dialogue story teller and action animator. We hope to reflect with viewers on why the study of styles of use in Alice could be important for visual languages and computer science education.'
+	  },
+
+  {session: 1, 
+   type: "poster",
+   first: "Daniela",
+	  last: "Marghitu",
+	  email: "marghda@auburn.edu", 
+	  title: "Robotics Rule-Based Formalism to Specify Behaviors in a Visual Programming Environment"
+	  },
+
+ {session: 1, 
+  type: "poster",
+	  first: "Mark", 
+	  last: "Sherman", 
+	  email: "msherman@cs.uml.edu",
+	  title: "Building Models of Student Programs in App Inventor"
+	  },
+
+  {session: 1, 
+	  type: "poster",
+	  first: "Kyle",
+	  last: "Harms", 
+	  email: "kyle.harms@wustl.edu", 
+	  title: "Developing a Programming Assessment for Middle School Children"
+	  },
+
+ {session: 2, 
+  type: "demo", 
+	 first: "Sayamindu",
+	 last: "Dasgupta",
+  email: "sayamindu@media.mit.edu", 
+  title: "Scratch Data Blocks: Sneak Preview",
+  blurb: "I'll be showing an alpha version of Scratch Data Blocks, a set of blocks implemented within Scratch that enables access to the public social and code data from the Scratch website. With Scratch Data Blocks, we hope that Scratch users will analyze and reflect on their social participation and learning on the Scratch website."
+	 },
+
+  {session: 2, 
+   type: "demo",
+	  first: "Paul", 
+	  last: "Medlock-Walton", 
+	  email: "paulmw@mit.edu",
+	  title: "Gameblox"
+	  },
+
+  {session: 2, 
+   type: "demo",
+	  first: "David Anthony",
+	  last: "Bau", 
+	  email: "dbau@exeter.edu", 
+	  title: "Improving the Usability of a Blocks-Based Text Editor"
+	  },
+
+  {session: 2, 
+   type: "demo",
+	  first: "John",
+	  last: "Maloney", 
+	  email: "jmaloney@media.mit.edu", 
+   title: "Blurring the Line Between Blocks and Text in GP",
+	  blurb: "We will demonstrate several experiments with the boundary between blocks and text in GP."
+	  },
+
+  {session: 2, 
+   type: "demo",
+	  first: "Omokolade", 
+          last: "Hunpatin", 
+	  email: "omokolade.hunpatin@mu.edu", 
+   title: "MUzECS: Embedded Blocks for Exploring Computer Science",
+	  blurb: "How MuzECS teaches robotics as an application of computing and aids students in the transition from block based programming to text based programming."
+	  },
+
+  {session: 2, 
+   type: "demo",
+	  first: "Catharine",
+	  last: "Brand", 
+	  email: "catharine.brand@gmail.com", 
+   title: "Highlights of AgentCubes",
+	  blurb: "A quick look at a 3D programming environment."
+	  },
+
+  {session: 2, 
+	  type: "demo",
+	  first: "Miguel",
+	  last: "Ceriani", 
+	  email: "ceriani@di.uniroma1.it", 
+	  title: "SparqlBlocks: Block Programming for Querying the Semantic Web"
+	  },
+
+  {session: 2, 
+	  type: "demo",
+	  first: "Alan",
+	  last: "Blackwell",
+	  email: "afb21@cam.ac.uk", 
+   title: "DrawBridge",
+	  blurb: "DrawBridge provides scaffolding for learning transitions between block syntax and conventional text, through use of multiple representations. It has been evaluated in a range of classroom settings within the UK national computing curriculum."
+	  },
+
+  {session: 2, 
+	  type: "demo",
+	  first: "Brian",
+	  last: "Harvey", 
+	  email: "bh@cs.berkeley.edu", 
+	  title: "Snap! keyboard editor"
+	  },
+
+  {session: 2, 
+	  type: "demo",
+	  first: "Caitlin", 
+          last: "Kelleher", 
+	  email: "ckelleher@wustl.edu",
+	  title: "Play&Explore"
+	  },
+
+  {session: 2, 
+	  type: "poster and demo", 
+	  first: "Cathy",
+	  last: "Law", 
+	  email: "catherine.law@oregonstate.edu", 
+   title: "Engaging Young Studetns in Computer Science",
+	  blurb: "This poster and demo will show what STEM Academy has been doing with K-2 students, and plans for expansion to grades 3-5, at a Title-1 school in Corvallis, Oregon."
+	  },
+
+  {session: 2, 
+	  type: "poster and demo", 
+	  first: "Amber",
+	  last: "Wagner", 
+	  email: "ankwagner@gmail.com", 
+   title: "Improving the Accessibilty of Block-Based Languages",
+	  blurb: "This poster and demo will introduce Myna, a Vocal User Interface, which allows users with motor impairments to program in block-based environments using voice. While Myna was originally designed for use with Scratch, it has been extended to work with additional block-based languages, such as Lego Mindstorms, Pixly, and Spherly."
+	  },
+
+  {session: 2, 
+	  type: "poster",
+	  first: "Yoshiki",
+	  last: "Ohshima", 
+	  email: "Yoshiki.Ohshima@acm.org", 
+	  title: "A Module System for a General-Purpose Blocks Language"
+	  },
+
+  {session: 2, 
+	  type: "poster",
+	  first: "Matthew",
+	  last: "Poole", 
+	  email: "matthew.poole@port.ac.uk", 
+	  title: "Design of a Blocks-Based Environment for Introductory Programming in Python: Type Hierarchies, Polymorphism and Program Structure"
+	  },
+
+
+  {session: 2, 
+	  type: "poster",
+	  first: "David",
+	  last: "Weintrop", 
+	  email: "dweintrop@u.northwestern.edu", 
+	  title: "Blocks, Text, and the Space Between: The Role of Representations in Novice Programming Environments",
+	  blurb: "This poster presents my in-progress dissertation project. As a quick note, I am also presenting this poster during the main VL/HCC conference as part of the doctoral consortium. If this is a problem, I can not present it during the blocks-based workshop."
+	  },
+
+  {session: 2, 
+	  type: "poster",
+	  first: "Deborah",
+	  last: "Fields", 
+	  email: "deborah.fields@usu.edu", 
+   title: "Structured Constructionism? Helping all novices go deep in Scratch Camp",
+	  blurb: "One of the keystone attributes of constructionist learning is that it is interest-driven, allowing users to instill their own personal interests in what they create. However, kids interests may not always lead them to learning more challenging skills. This leads to a concern about equity in who gets the most out of constructionist education. How do we consistently promote rigorous learning while still maintaining the student-centered, interest-driven approaches that define constructionism? In this poster we share one approach to building a more rigorous and equitable constructionist learning environment, by applying a studio design model of pedagogy from the arts to computer science in the creation of a set of three weeklong Scratch Camps. We share our Camp design, outline the learning theories informing it, and consider lessons learned from the experience.",
+	  },
+
+]
+
+
+

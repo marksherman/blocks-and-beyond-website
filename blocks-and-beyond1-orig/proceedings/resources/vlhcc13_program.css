@@ -1,0 +1,62 @@
+.session-title, .session-title-with-chair {
+	font-size: smaller;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.session-title {
+	margin-bottom: 0.5em
+}
+
+.session-title-with-chair {
+	margin-bottom: 0
+}
+
+.session-time {
+	font-size: smaller;
+}
+
+abbr, .with-description {
+	border-bottom: 1px dotted #999;
+}
+
+.paper-type, .role {
+  font-size: smaller;
+  text-transform: uppercase
+}
+
+.role {
+  margin-right: 1em;
+}
+
+.affiliations {
+	font-style: italic;
+}
+
+.program td {
+  margin: 0;
+  padding: 0
+}
+
+td.session {
+  padding-left: 1em
+}
+
+.session p {
+  margin-top: 0;
+  margin-bottom: 1em
+}
+
+.video-link {
+	font-size: smaller;
+	border: 1px solid #666;
+	padding: 2px;
+	margin: 0 0 0 0.5em;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+
+.sort-separator {
+	color: #999;
+	margin: 0 0.25em
+}

@@ -1,0 +1,18 @@
+# begin file .htaccess
+AuthUserFile /var/www/htpasswd-guest
+AuthGroupFile /dev/null
+AuthName "By Invitation Only"
+AuthType Basic
+
+order deny,allow
+deny from all
+allow from .wellesley.edu
+allow from 149.130.
+# the following environment variable is set by the server
+# from a X-FORWARDED-FOR header, so that this .htaccess
+# will work with Varnish
+SetEnvIf X-FORWARDED-FOR "^149.130." WellesleyIP
+allow from env=WellesleyIP
+require valid-user 
+satisfy any
+# end file .htaccess

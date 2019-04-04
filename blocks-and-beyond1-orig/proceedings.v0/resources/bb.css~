@@ -1,0 +1,17 @@
+header {
+  /* background-color: wheat; */
+  background-color: #66b2b2;
+  padding: 10px;
+}
+
+#mainTitle {
+  margin: 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#subTitle {
+  margin: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}

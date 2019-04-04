@@ -1,0 +1,58 @@
+header {
+  /* background-color: wheat; */
+  background-color: #66b2b2;
+  padding: 10px;
+}
+
+#proceedingsTitle {
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#mainTitle {
+  margin: 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#subTitle {
+  margin: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.paperEntry {
+  margin-top: 20px;
+}
+
+#paperEntryTemplate {
+  display: none;
+}
+
+.authorList {
+  margin-left: 20px;
+}
+
+.orgName {
+  font-style: italic;
+}
+
+.authorIndexEntry {
+  margin-top: 20px;                        
+}
+
+.authorIndexAuthor {
+  font-weight: bold;
+}
+
+.authorIndexPaperList {
+  margin-top: 10px;                        
+  margin-left: 20px;                        
+}
+
+.authorIndexPaperEntry {
+  margin-top: 10px;                        
+}
+
+

@@ -1,0 +1,25 @@
+input {
+    width: 90%;
+    font-size: larger;
+}
+
+input.textbox {
+    width: 90%
+}
+
+span.highlight {
+    color: magenta;
+    font-weight: bold;
+}
+
+span.clarification {
+    color: blue;
+    font-style: italic;
+    font-size: smaller;
+}
+
+span.example {
+    color: black;
+    font-style: normal;
+    font-family: monospace;
+}

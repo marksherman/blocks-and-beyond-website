@@ -1,0 +1,133 @@
+/* Colors from "Coffee with Cream" palette: http://www.color-hex.com/color-palette/38662
+
+#e7c85e(231,200,94)
+#cca450(204,164,80)
+#ab763d(171,118,61)
+#8e502e(142,80,46)
+#742d1f(116,45,31)
+
+*/
+
+
+header {
+  background-color: #e7c85e
+  padding: 10px;
+}
+
+.paperTitle {
+  color: #742d1f
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.paperTitle a:link {
+  color: #742d1f
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.paperTitle a:visited {
+  color: #8e502e;
+  text-decoration: none;
+}
+
+.paperType {
+  font-size: smaller;
+  text-transform: uppercase;
+  /* font-variant: small-caps;
+     font-size: 14px;
+     font-style: italic; */
+}
+
+#proceedingsTitle {
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#mainTitle {
+  margin: 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#subTitle {
+  margin: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.paperEntry {
+  margin-top: 20px;
+}
+
+#paperEntryTemplate {
+  display: none;
+}
+
+.authorList {
+  margin-left: 20px;
+}
+
+.orgName {
+  font-style: italic;
+}
+
+.authorIndexEntry {
+  margin-top: 20px;                        
+}
+
+.authorIndexAuthor {
+  font-weight: bold;
+}
+
+.authorIndexPaperList {
+  margin-top: 10px;                        
+  margin-left: 20px;                        
+}
+
+.authorIndexPaperEntry {
+  margin-top: 10px;                        
+}
+
+.paperHeader {
+  margin-top: 40px;                        
+}
+
+.sessionHeader {
+  margin-top: 40px;                        
+}
+
+.infoTitle {
+  font-weight: bold;
+}
+
+.paperInfo {
+  margin: 5px;
+}
+
+.moreLessInfo {
+  margin: 10px;
+}
+
+.moreLessInfoTitle {
+  padding: 3px;
+  color: blue;
+  font-style: italic;
+  border: 1px blue solid
+}
+
+.moreLessButton {
+  margin: 10px;
+  color: blue;
+  font-style: italic;
+}
+
+.paperInfoGroup {
+  max-width: 600px;              
+  margin: 10px;
+  padding: 5px;
+  border: 1px blue dashed;
+}
+
+

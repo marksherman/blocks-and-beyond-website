@@ -1,0 +1,271 @@
+body {
+	background: #fff;
+	margin: 0px 0px 0px 50%;
+	font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+	font-size: 12pt;
+	color: #000
+}
+
+a:link {
+	color: #193ea0;
+	text-decoration: none
+}
+
+a:visited {
+	color: #803e80;
+	text-decoration: none
+}
+
+a:hover {
+	color: #193ea0;
+	text-decoration: underline
+}
+
+a:active {
+	color: #193ea0;
+	text-decoration: underline
+}
+
+#container {
+	margin: 0px 0px 0px -400px;
+	padding: 0em;
+	width: 800px;
+	position: relative;
+	background: #fff
+}
+
+#main-nav {
+	width: 800px;
+}
+
+#primary-nav, #secondary-nav
+{
+	list-style: none;
+	display: block;
+	height: auto;
+}
+
+#primary-nav {
+	background: #a7a9ac;
+	margin: 0;
+	padding: 5px 0 5px 15px;
+	font-size: 14px;
+}
+
+#secondary-nav {
+	background: #eeeeee;
+	margin: 0;
+	padding: 5px 0 5px 4px;
+	font-size: 13px;
+}
+
+#primary-nav ul, #secondary-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#primary-nav li, #secondary-nav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#primary-nav a:link, #primary-nav a:visited {
+	padding: 5px 30px 5px 29px;
+	text-decoration: none;
+	background: #a7a9ac;
+	color: #fff;
+	position: relative; /* fixes ie border-top issue */
+}
+
+#primary-nav a:hover {
+	padding: 5px 30px 5px 29px;
+	background: #cccccc;
+	color: #000;
+	position: relative; /* fixes ie border-top issue */
+}
+
+#primary-nav a.selected {
+	padding: 5px 30px 5px 29px;
+	background: #eee;
+	color: #000;
+	position: relative; /* fixes ie border-top issue */
+}
+
+#secondary-nav a, #secondary-nav b {
+	padding: 5px 9px;
+	line-height: 160%;
+	background: #eeeeee;
+}
+
+#secondary-nav a:link, #secondary-nav a:visited {
+	text-decoration: none;
+	color: #666;
+}
+
+#secondary-nav a:hover, #secondary-nav a.selected {
+	background: #ffffff;
+	color: #000;
+}
+
+#main-content, #main-content table {
+	line-height: 1.4em;
+}
+
+table, tbody, tr, td {
+	margin: 0;
+	padding: 0;
+}
+
+#footer {
+	clear: both;
+	margin-top: 1em;
+	padding: 1em 0;
+	font-size: smaller;
+	border-top: 1px solid #dddddd;
+}
+
+#sidebar {
+	float: right;
+	width: 250px;
+	padding: 1em 1em;
+	margin: 1em 0em 1em 1em;
+	background: #9abcdd;
+	font-size: smaller;
+}
+
+#sidebar.multisection {
+	padding: 0;
+	background: #ffffff;
+}
+
+#sidebar h3 {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar .section {
+	padding: 1em 0 1em 1em;
+	background: #9abcdd;
+}
+
+#sidebar div img {
+	margin-bottom: 0.5em;
+}
+
+#sidebar div {
+	margin-bottom: 1em;
+}
+
+.emphasis {
+	background: #cccccc;
+	font-size: smaller;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0.1em 0.5em;
+}
+
+dl {
+	margin: 0;
+	padding: 0;
+}
+
+dt {
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+dt.first {
+	margin-top: 0;
+}
+
+dt .note {
+	font-weight: normal;
+	font-size: smaller;
+}
+
+dt .note:before {
+	content: "(";
+}
+
+dt .note:after {
+	content: ")";
+}
+
+dd {
+	margin-left: 0em;
+}
+
+ul#sponsors {
+	margin: 0;
+	padding: 0;
+}
+
+#sponsors li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#sponsors img {
+	padding: 0 2em 0 0;
+	vertical-align: middle;
+}
+
+div.corporate {
+	background: #eeeeee;
+	margin: 0.5em 0;
+	padding: 0.5em;
+}
+
+div.corporate h3 {
+	margin: 0em;
+}
+
+div.corporate p {
+	margin-bottom: 0em;
+}
+
+div.corporate img {
+	padding: 0.25em;
+	background: #fff;
+}
+
+/* column container */
+.colmask {
+	position:relative; /* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;	/* This chops off any overhanging divs */
+}
+/* 2 column left menu settings */
+.leftmenu {
+	background:#fff;
+}
+.leftmenu .colright {
+	float:left;
+	width:200%;
+	position:relative;
+	left:230px;
+	background:#fff;
+}
+.leftmenu .col1wrap {
+	float:right;
+	width:50%;
+	position:relative;
+	right:230px;
+	padding-bottom:1em;
+}
+.leftmenu .col1 {	/* right column */
+	margin:0 15px 0 215px;
+	position:relative;
+	right:100%;
+	overflow:hidden;
+}
+.leftmenu .col2 {	/* left column */
+	float:left;
+	width:205px;
+	position:relative;
+	right:230px;
+}

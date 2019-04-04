@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Blocks and Beyond Workshop</title>
+    <link href="blocks-and-beyond.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!--#include virtual="header.part" -->
+
+<main>
+
+<h1>Organizers</h1>
+
+<p class="blurb"> 
+<span class="organizer">Franklyn Turbak (chair)</span> 
+is an associate professor of Computer Science at Wellesley College.
+His interests include the design, analysis, and implementation of
+expressive programming languages, graphical representations of
+programs, and the visualization of computational processes. As a
+member of the MIT App Inventor development team, leader of the
+Wellesley TinkerBlocks research project, and lead PI on the NSF-funded
+Computational Thinking Through Mobile Computing project (in
+collaboration with MIT, Trinity College, University of Massachusetts
+Lowell, and University of San Francisco), his goal is to improve the
+expressiveness and pedagogy of blocks-based programming languages. He
+is co-author of the textbook Design Concepts in Programming Languages.
+
+<p class="blurb"> 
+<span class="organizer">David Bau</span> 
+is staff software engineer at Google and the author of Pencil Code, an
+educational programming environment with a hybrid block-and-text code
+editor.  His main interests are in broadening access to computer
+science education and in understanding how to help CS students develop
+creativity, persistence, and resourcefulness.  David has helped create
+several products including Microsoft Internet Explorer and Google
+Image Search, and he co-authored a textbook on numerical analysis.
+David's current work includes creating tools and curriculum for Google
+CS First, Code.org's CS Principles course, and a middle-school
+computer science class for Citizen Schools.
+
+<p class="blurb"> 
+<span class="organizer">Jeff Gray</span> 
+is a Professor in the Department of Computer Science at the University
+of Alabama. His main research interests are in software engineering
+and computer science education.  Jeff is on the Education Advisory
+board of Code.org and also a Code.org K5 affiliate. He is a National
+Science Foundation CAREER recipient and an ACM Distinguished
+Member. Jeff has served on over 75 conference/workshop organizing
+committees and over 200 program committees. Most recently, he has been
+involved with the new CS Principles course in the following ways:
+national pilot instructor since 2011, NSF PI on a grant that is
+training 50 Alabama high school teachers, and a MOOC instructor for
+Google CS4HS. His current projects involving blocks languages include
+an NSF project that is investigating how children with disabilities
+can program in Scratch using “Programming by Voice,” as well as
+advising several new Blockly language environments (Spherly for Sphero
+robots and Pixly for pixel manipulation). More general information
+about his work is at: http://gray.cs.ua.edu.
+
+<p class="blurb"> 
+<span class="organizer">Caitlin Kelleher</span> 
+is the Urbauer Career Development Associate Professor of Computer
+Science at Washington University in St. Louis. Her work focuses on
+democratizing computer programming through innovative programming
+tools. Looking Glass is a programming environment designed for ages 10
+and up that serves as a platform for exploring how kids can learn
+programming even when they lack access to a teacher and classroom
+context. It includes tools for interactively exploring the execution
+history, capturing and sharing reusable snippets of code, and
+generating puzzles from shared code. Caitlin completed her doctorate
+at Carnegie Mellon University working with Professor Randy Pausch. She
+is the recipient of an NSF CAREER award, a Sloan Fellowship, and
+several best paper awards.
+
+<p class="blurb"> 
+<span class="organizer">Josh Sheldon</span> 
+is Director of Strategic Programs for the MIT App Inventor project. He also works with the Scheller Teacher Education Program (MIT STEP)  lab, known for games and simulations for learning, along with programming environments to allow those with little programming background to build such things. At MIT STEP, he has worked on both StarLogo (http://slnova.org/), a blocks-based programming tool for 3D games and multi-agent simulations, and TaleBlazer (http://taleblazer.org), an environment that uses blocks-based scripting to enhance interactivity as authors build location-based augmented reality experiences. Along with general educational technology in STEM, he has a particular interest in computing integrated into other subjects and being used by youth to address real-world challenges. A programmer by avocation who started with Logo in 2nd grade and quickly moved on to BASIC from the back of magazines, he greatly appreciates and seeks to improve the affordances that various visual environments afford beginning programmers of today.  
+
+</main>
+
+<!--#include virtual="footer.part" -->
+</body>
+</html>

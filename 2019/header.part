@@ -1,0 +1,19 @@
+<header>
+  <div id="mainTitle">Blocks and Beyond 2019: Beyond Blocks</div>
+  <div id="subTitle">3rd Workshop on Lessons and Directions for First Programming Environments</div>
+  <div id="subSubTitle">A <a href="https://human-se.github.io/vlhcc2019/">VL/HCC 2019</a> workshop 
+   in Memphis, TN, USA, Oct. 18, 2019</div>
+  <!--
+  <div id="crossRef">
+   The sequel to the <a href="http://cs.wellesley.edu/~blocks-and-beyond/1">1st Blocks and Beyond Workshop (Oct, 2015)</a></div>
+  --> 
+</header>
+
+    <nav>
+      <div class="navitem"><a href="home.html">Home</a></div>
+      <div class="navitem"><a href="program.html">Program</a></div>
+      <div class="navitem"><a href="pc.html">PC</a></div>
+      <div class="navitem"><a href="organizers.html">Organizers</a></div>
+      <div class="navitem"><a href="previous.html">Previous</a></div>
+    </nav>
+

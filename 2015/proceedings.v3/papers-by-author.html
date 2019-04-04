@@ -1,0 +1,64 @@
+
+
+<html>
+<head>
+<title>Blocks & Beyond 2015</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="resources/main.css" type="text/css">
+<link rel="stylesheet" href="resources/bb.css" type="text/css">
+<script src="resources/jquery-1.11.1.min.js"></script>
+<script src="resources/papers.js"></script> 
+</head>
+
+<body>
+
+<div id="container">
+
+  <header>
+    <div id="proceedingsTitle">Proceedings of the 2015 IEEE Blocks and Beyond Workshop</div>
+    <div id="mainTitle">Blocks and Beyond</div>
+    <div id="subTitle">Lessons and Directions for First Programming Environments</div>
+  </header>
+
+  <div id="main-nav">
+		
+    <div id="primary-nav">
+      <ul>
+        <li><a href="index.html">Home</a>
+        <li><a href="foreword.html">Foreword</a>
+        <li><a href="papers-by-session.html">Papers by Session</a>
+        <!-- <li><a href="papers-by-type.html">Papers by Type</a> -->
+        <li><a href="papers-by-author.html" class="selected">Papers by Author</a>
+        <li><a href="committees.html">Committees</a>
+      </ul>
+    </div> <!-- end primary-nav -->
+		
+  </div> <!-- end main-nav -->
+
+<div id="main-content">
+
+  <div id="template" style="display:none">
+    <div class="authorIndexEntry">
+      <div class="authorIndexAuthor"></div>
+      <div class="authorIndexPaperList"></div> 
+    </div> <!-- end authorIndexEntry -->
+    <div class="authorIndexPaperEntry">
+      <div class="paperTitle"><a>This is a paper title</a> &middot <span class="paperType"></span></div>
+      <div class="authorList"></div> 
+    </div> <!-- end authorIndexPaperEntry -->
+    <div class="authorEntry">
+      <span class="authorName">Author name #1</span> 
+      &middot 
+      <span class="orgName">Org #1</span> 
+    </div> <!-- end authorEntry -->
+  </div> <!-- end template -->
+
+  <div id="authorIndexList"></div> 
+
+  </div> <!-- end main-content -->
+</div> <!-- end container -->
+
+<script>addPapersByAuthor()</script>
+
+</body>
+</html>

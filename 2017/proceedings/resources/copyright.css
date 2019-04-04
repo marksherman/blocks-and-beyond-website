@@ -1,0 +1,38 @@
+/* [lyn, 2017/08/28-29] */
+
+input {
+    font-size: 16px;
+}
+
+input.textbox {
+    width: 97%;
+}
+
+.inputButton {
+    margin-top: 20px;
+    background-color: #e7bd57;
+} 
+
+.inputTitle {
+    color: #a9772b;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0px 3px 0px;
+}
+
+span.highlight {
+    color: magenta;
+    font-weight: bold;
+}
+
+.clarification {
+    color: #a9772b;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.example {
+    color: black;
+    font-style: normal;
+    font-family: monospace;
+}

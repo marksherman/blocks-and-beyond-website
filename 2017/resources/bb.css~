@@ -1,0 +1,188 @@
+/* Colors from "Coffee with Cream" palette: http://www.color-hex.com/color-palette/38662
+
+#e7c85e(231,200,94)
+#cca450(204,164,80)
+#ab763d(171,118,61)
+#8e502e(142,80,46)
+#742d1f(116,45,31)
+
+*/
+
+
+header {
+  background-color: #e7c85e
+  padding: 10px;
+}
+
+.paperTitleSpan {
+  color: #5c2a00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.paperTitleSpan a:link {
+  color: #5c2a00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.paperTitleSpan a:visited {
+  color: #5c2a00;
+  text-decoration: none;
+}
+
+.paperType {
+  font-size: smaller;
+  text-transform: uppercase;
+  /* font-variant: small-caps;
+     font-size: 14px;
+     font-style: italic; */
+}
+
+#proceedingsTitle {
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#mainTitle {
+  margin: 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#subTitle {
+  margin: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.paperEntry {
+  margin-top: 15px;
+  margin-left: 10px;
+  /* border: 1px red dashed; */
+}
+
+#paperEntryTemplate {
+  display: none;
+}
+
+.authorList {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.authorEntry {
+  margin-top: 1px;
+}
+
+.orgName {
+  font-style: italic;
+}
+
+.authorIndexEntry {
+  margin-top: 20px;                        
+}
+
+.authorIndexAuthor {
+  font-weight: bold;
+}
+
+.authorIndexPaperList {
+  margin-top: 10px;                        
+  margin-left: 20px;                        
+}
+
+.authorIndexPaperEntry {
+  margin-top: 10px;                        
+}
+
+.paperHeader {
+  margin-top: 40px;                        
+}
+
+.sessionHeader {
+  margin-top: 40px;                        
+}
+
+.infoTitle {
+  font-weight: bold;
+}
+
+.paperInfo {
+  margin: 5px;
+}
+
+.moreLessInfo {
+  margin: 10px;
+}
+
+.moreLessInfoTitle {
+  padding: 3px;
+  color: blue;
+  font-style: italic;
+  border: 1px blue solid
+}
+
+.moreLessButton {
+  margin: 0px 10px;
+  color: #5c2a00;
+  font-style: italic;
+}
+
+.paperInfoGroup {
+  max-width: 600px;              
+  margin: 10px;
+  padding: 5px;
+  border: 1px #ab763d dashed;
+}
+
+.posterDemoNote {
+  font-style: italic;
+}
+
+.pdfLink {
+  margin: 5px;
+  font-color: blue;
+  font-weight: bold;
+}
+
+.sessionGroup {
+  margin: 10px 0px;
+  /* border: 1px green dashed; */
+}
+
+.sessionTime {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 5px; 
+  background-color: #e7bd57;
+}
+
+.sessionTitle {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 5px; 
+  background-color: #fff69b;
+}
+
+.workshopDay {
+  margin: 20px 0px 10px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px; 
+  background-color: #e7bd57;
+  // background-color: #c89a41;
+  // background-color: #a9772b;
+}
+
+.sessionChair {
+  color: #5c2a00; 
+  font-weight: normal;
+  font-size: 16px;     
+}
+
+
+

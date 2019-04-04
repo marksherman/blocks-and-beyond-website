@@ -1,0 +1,140 @@
+body {
+  max-width:800px;
+  margin: 0 auto;
+  background-color: papayaWhip;
+  color: navy;
+}
+
+main {
+  margin: 0px 0px 0px 20px;
+  font-size: 16px;
+}
+
+main ul {
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+header {
+  background-color: wheat;
+  padding: 10px;
+}
+
+#dates {
+  width: 250px; 
+  margin: 5px 0px 10px 20px;
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px dashed black;
+  float: right
+}
+
+#datesTitle {
+  font-weight: bold; 
+  font-size: 18px;
+  margin: 5px 0px;
+}
+
+.dayentry {
+  margin: 5px 0px;
+  font-size: 16px;
+}
+
+.day {
+  font-weight: bold; 
+}
+
+#submission {
+  width: 250px; 
+  margin-left: 20px;
+  margin-right: 0px;
+  padding: 0px 15px;
+  background-color: white;
+  border: 1px dashed black;
+  clear: right;
+  float: right;
+  font-size: 14px;
+}
+
+#submission h2 {
+  font-size: 18px;
+  padding-bottom: 0px; 
+  margin-bottom: 0px; 
+}
+
+#submission ol {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 15px;
+}
+
+#submission ol li {
+  padding-top: 0px;
+  margin-top: 8px;
+}
+
+#submission p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#mainTitle {
+  margin: 10px;
+  font-size: 36px;
+  font-weight: bold; 
+}
+
+#subTitle {
+  margin: 10px;
+  font-size: 28px;
+  font-weight: bold; 
+}
+
+#subSubTitle {
+  margin: 10px;
+  font-size: 24px;
+}
+
+#titleDate {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.navitem {                                                                                             
+  float: left;        /* not specified in the instructions */                                          
+  width: 160px;       /* not specified in the instructions */                                          
+  margin: 10px;                                                                                        
+  padding: 10px;                                                                                       
+  border-top: 1px solid orange;                                                                        
+  border-bottom: 1px solid orange;                                                                     
+  text-align: center;                                                                                  
+}   
+
+.scheduleTime {
+  font-weight:bold;
+}
+
+.scheduleItem {
+  margin-left:20px;
+  padding: 10px;
+  background-color: wheat;
+  max-width: 600px;
+}
+
+.organizer {
+  font-weight:bold;
+}
+
+.blurb {
+  margin-left:20px;
+  padding: 10px;
+  background-color: wheat;
+  max-width: 600px;
+}

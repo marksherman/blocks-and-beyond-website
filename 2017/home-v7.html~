@@ -1,0 +1,230 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Blocks and Beyond 2017 Workshop: Home</title>
+    <link href="resources/blocks-and-beyond.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!--#include virtual="header.part" -->
+
+<main>
+
+<div class="notice">
+The <a href="program.html">workshop program</a> is now available!
+</div>
+
+
+<div id="dates">
+ 
+  <div id="datesTitle">Important Dates</div>
+
+  <div class="dayentry">
+    <span class="day">19 Jul 2017:</span>
+    <span class="dayItem"><s>Submissions</s> Abstracts due</s><br>
+    (due by end of day, anytime on Earth)</span><br>
+    <span style="font-size:12px;font-style:italic">Due to several requests, we are extending 
+    the paper submission deadline (for both position statements and full papers) by one week. 
+    But an abstract for either kind of paper must still be submitted 
+    by 19 Jul so that we can assign papers to reviewers.</span>
+
+  </div>
+
+  <div class="dayentry">
+    <span class="day">26 Jul 2017:</span>
+    <span class="dayItem">Paper submissions due<br>
+    (due by end of day, anytime on Earth)</span>
+  </div>
+
+  <div class="dayentry">
+    <span class="day">16 Aug 2017:</span> 
+    <span class="dayItem">Author notification</span>
+  </div>
+
+  <div class="dayentry">
+    <span class="day">30 Aug 2017:</span> 
+    <span class="dayItem">Camera-ready submisssion, IEEE copyright form, and presenter registration due 
+    (see <a href="final-submission.html">final submission instructions</a>)</span>.
+  </div>
+
+  <div class="dayentry">
+    <span class="day">08 Sep 2017:</span> 
+    <span class="dayItem">Early registration deadline</span>
+    (see the <a href="https://sites.google.com/site/vlhcc2017/attending">Attending VL/HCC</a> page). 
+  </div>
+
+  <div class="dayentry">
+    <span class="day">22 Sep 2017:</span> 
+    <span class="dayItem">Deadline for <a href="demo-poster.html">demo/poster abstracts and optional summary documents</a>.
+  </div>
+
+  <div class="dayentry">
+    <span class="day">10 Oct 2017:</span> 
+    <span class="dayItem">Workshop in Raleigh</span>
+  </div>
+
+</div>
+
+<div id="submission">
+<div id="datesTitle">Paper Submissions</div>
+
+<p> We invite two kinds of paper submissions: 
+
+  <ol>
+
+    <li> A 1 to 4 page <b>position statement</b> describing an idea, research
+    question, or work in progress related to the design, teaching, or study of blocks programming
+    environments.
+ 
+    <li> A <b>full paper</b> (4 to 8 pages, including references) describing previously unpublished results
+    involving the design, study, or pedagogy of blocks programming
+    environments.
+
+  </ol>
+
+<p>For either kind of paper, an abstract must be submitted to the 
+<a href="https://easychair.org/conferences/?conf=blocksbeyond2017">
+Easy Chair Blocks and Beyond workshop submission site</a> by the end of 19 Jul 2017.
+
+<p>Completed papers must be submitted as PDF files to the
+<a href="https://easychair.org/conferences/?conf=blocksbeyond2017">
+Easy Chair Blocks and Beyond workshop submission site</a> by the end of 26 Jul 2017. 
+Use an 
+<a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">IEEE Conference template</a>
+to format your submission. 
+
+<p>Submitted paper abstracts and PDFs can be updated at any time through 
+the end of day on 26 Jul 2017 (anytime on Earth). Authors are encouraged
+to submit drafts that can be updated until the 26 Jul deadline. 
+Drafts should be indicated by putting <code>Draft:</code> at the 
+beginning of the title in the paper. 
+
+<p>As with the <a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7359188">
+Proceedings of the First Blocks and Beyond Workshop</a>, 
+we plan to publish the proceedings of the Second Workshop 
+with the IEEE. 
+
+<p>Some expected differences from the 1st workshop:
+
+<ul>
+
+<li> a single-track format. 
+<li> longer full-paper presentation times (tentatively, 15 minutes);
+     position statement presentations will be shorter "flash talks"
+     (about 5 minutes). 
+
+</ul>
+
+<p> Submissions are not anonymous, so do not anonymize your papers. 
+
+<!--
+<p> Because this workshop will be discussion-based, rather than a
+mini-conference, the number of presentation/demonstration slots are
+limited. Authors for whom presentation or demonstration is essential 
+should indicate this in their submission.
+--> 
+</div>
+
+<div id="submission">
+<div id="datesTitle">Demos and Posters</div>
+<p><span class="bbemph2">Demo/poster abstract submissions will be accepted through
+Fri. Sep. 22</span>. 
+But consider early registration and hotel reservations by 
+<span class="bbemph2">Fri. Sep. 8</span>. 
+<a href="demo-poster.html">See the details.</a>
+<p>
+All workshop participants (whether or not they have an accepted
+position statement or full paper) are encouraged to present a demo
+and/or poster of their work during the workshop
+</div>
+
+
+<h1>Call for Participation</h1>
+
+<h2>Scope and Goals</h2>
+
+<p>
+Blocks programming environments represent program syntax trees as
+compositions of visual blocks. They are an increasingly popular way to introduce
+programming and computational thinking; 
+tens of millions of people have used tools like 
+Scratch, Blockly, App Inventor, Snap!, Pencil Code, Alice/Looking
+Glass, AgentSheets/AgentCubes, and Code.org's curricula. 
+But blocks programming is not just for beginners; environments like GP and
+domain-specific blocks languages are targeted at hobbyists, scientists. and other
+casual programmers. 
+
+<p>Capitalizing on the energy and enthusiasm from the
+ <a href="http://cs.wellesley.edu/~blocks-and-beyond/1">1st Blocks and Beyond Workshop</a> in Atlanta
+in 2015, this workshop aims to continue studying the 
+usability, effectiveness, and generalizability of affordances of these
+environments and their associated pedagogies. 
+The workshop will bring
+together educators and researchers with experience in blocks languages, as
+well as members of the broader VL/HCC community who wish to examine this area
+more deeply. We seek participants with diverse expertise, including, but not
+limited to: design of programming environments, instruction with these
+environments, the learning sciences, data analytics, usability, and more.
+
+
+<p> The workshop will be a generative discussion that sets the stage for
+future work and collaboration. It will include participant presentations and
+demonstrations that frame the discussion, followed by reflection on the state
+of the field and smaller working-group discussion and brainstorming sessions.
+
+<h2>Suggested Topics for Discussion</h2>
+
+  <ul>
+
+    <li>Who uses blocks programming environments and why? What do they create
+    in these environments, and how satisfied are they with their creations?
+
+    <li> Which features of blocks environments help or hinder users?
+    <!-- creating  personally meaningful projects or learning computational concepts -->  
+    How do we know? Which of these features are worth incorporating into more traditional
+    IDEs?  What helpful features are missing?
+
+    <li> How can blocks environments and associated curricular materials be made more accessible to everyone, 
+    especially those with disabilities?
+
+    <li> Can blocks programming appeal to a wider range of interests (e.g., by allowing connections to
+    different types of devices, web services, data sources, etc.)?
+
+    <li>What are the best ways to introduce programming to novices and to
+    support their progression towards mastery? Do these approaches differ for
+    for learners of computing basics and for makers? 
+
+    <li>What are the conceptual and practical hurdles encountered by novice
+    users of blocks languages when they face the transition to text languages
+    and traditional programming communities? What can be done to reduce these
+    hurdles?
+
+    <li>How can we best harness online communities to support growth through
+    teaching, motivating, and providing inspiration and feedback?
+
+    <li> What roles should collaboration play in blocks programming? How can environments support that collaboration? 
+    <!--What kinds of roles should collaboration play in blocks environments?
+    What problems should we attempt to address using collaboration and what
+    kinds of communication are necessary? How can environments support that
+    collaboration most easily? Is real-time co-editing of code really a
+    desirable end-state, or is there another model that we should seek to
+    support?-->
+
+    <li>In these environments, what data can be collected, and how can that
+    data be analyzed to determine answers to questions like those above?  How
+    can we use data to answer larger scale questions about early experiences
+    with programming?
+
+    <li>What are the lessons learned (both positive and negative) from
+    creating first programming environments that can be shared with future
+    environment designers?
+
+   </ul>
+
+</main>
+
+<!--#include virtual="footer.part" -->
+
+  </body>
+</html>
+
